@@ -16,6 +16,7 @@
       href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media.css" />
   </head>
 
   <body>
@@ -38,6 +39,13 @@
             </li>
           </ul>
         </nav>
+        <button class="mobile-menu-open" type="button" data-menu-open>
+          <svg class="mobile-menu-icon">
+            <use
+              href="./images/symbol-defs.svg#icon-charm-menu-hamburger"
+            ></use>
+          </svg>
+        </button>
 
         <!-- Contacts -->
         <address class="adrs">
@@ -55,22 +63,34 @@
           </ul>
         </address>
       </div>
+      <div class="mobile-menu is-hidden" data-menu>
+        <div class="conteiner mobile-menu-conteiner">
+          <button
+            type="button"
+            class="close-btn mobile-close-btn"
+            data-menu-close
+          >
+            <svg class="close-btn-icon">
+              <use href="./images/symbol-defs.svg#icon-close-modal-btn"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
     </header>
 
     <main>
       <!-- HERO -->
-      <section class="hero">
+      <!-- <section class="hero">
         <div class="conteiner">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button type="button" class="modal-btn" data-modal-open>
             Order Service
           </button>
         </div>
-      </section>
+      </section> -->
 
       <!-- Benefits -->
-
-      <section class="benefits">
+      <!-- <section class="benefits">
         <div class="conteiner">
           <h2 hidden class="benefits">Benefits</h2>
           <ul class="list benefits-list">
@@ -124,10 +144,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
       <!-- ABOUT  -->
-      <section class="about">
+      <!-- <section class="about">
         <div class="conteiner">
           <h2 class="section-title">What are we doing</h2>
           <ul class="list about-list">
@@ -157,11 +177,11 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
       <!-- OUR TEAM -->
-      <section class="team">
-        <div class="conteiner">
+      <!-- <section class="team">
+        <div class="conteiner conteiner-special">
           <h2 class="section-title">Our Team</h2>
           <ul class="list team-list">
             <li class="team-item">
@@ -366,11 +386,10 @@
             </li>
           </ul>
         </div>
-      </section>
-    </main>
+      </section> -->
 
-    <!-- CUSTOMERS -->
-    <section class="customers">
+      <!-- CUSTOMERS -->
+      <!-- <section class="customers">
       <div class="conteiner">
         <h2 class="section-title">Customers</h2>
 
@@ -419,9 +438,11 @@
           </li>
         </ul>
       </div>
-    </section>
+    </section> -->
+    </main>
+
     <!-- Footer -->
-    <footer class="ftr">
+    <!-- <footer class="ftr">
       <div class="conteiner ftr-conteiner">
         <div class="frt-logo">
           <a class="link logo" href="./index.html"
@@ -484,14 +505,13 @@
             </button>
         </div>
       </div>
-    </footer>
-    
+    </footer> -->
 
     <!-- MODAL WINDOW -->
-    <div class="backdrop is-hidden" data-modal>
+    <!-- <div class="backdrop is-hidden" data-modal>
       <div class="modal-window">
-        <button type="button" class="modal-close-btn" data-modal-close>
-          <svg class="modal-close-btn-icon">
+        <button type="button" class="close-btn modal-close-btn" data-modal-close>
+          <svg class="close-btn-icon">
             <use href="./images/symbol-defs.svg#icon-close-modal-btn"></use>
           </svg>
         </button>
@@ -545,7 +565,8 @@
           <button class="modal-form-btn" type="submit">Send</button>
         </form>
       </div>
-    </div>
-    <script src="./js/modal.js"></script>
+    </div> -->
+    <!-- <script src="./js/modal.js"></script> -->
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
