@@ -198,7 +198,7 @@ body {
 .hero {
     background: var(--title-text-color);
     background-image: var(--bag-gr),
-        url(../images/page-1/hero-bg.jpg);
+        url(../images/page-1/hero-bg-mob@1x.jpg);
     max-width: 1440px;
     margin: 0 auto;
     padding-top: 188px;
@@ -208,13 +208,23 @@ body {
     background-repeat: no-repeat;
 }
 
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .hero {
+        background-image: var(--bag-gr),
+            url(../images/page-1/hero-bg-mob@2x.jpg);
+    }
+}
+
 .hero-title {
-    font-size: 56px;
-    line-height: 1.07;
+    font-size: 36px;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
     color: #FFFFFF;
-    max-width: 496px;
+    max-width: 320px;
     margin: 0 auto;
 }
 
@@ -232,7 +242,8 @@ body {
     background: #4D5AE5;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    margin-top: 48px;
+    margin-top: 72px;
+
     margin-left: auto;
     margin-right: auto;
     padding: 16px 32px;
