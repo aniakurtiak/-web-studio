@@ -129,7 +129,13 @@
         margin-top: 36px;
     }
 
-    /* =========== /OUR TEAM ============*/
+    /* =========== BENEFITS ============*/
+
+    .benefits-title {
+        text-align: left;
+    }
+
+    /* =========== OUR TEAM ============*/
     .team-list {
         gap: 24px;
     }
@@ -197,6 +203,24 @@
 
     .modal-btn {
         margin-top: 48px;
+    }
+
+    /* =========== BENEFITS ============*/
+
+    .benefits-list {
+        flex-wrap: nowrap;
+    }
+
+    .benefits-title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        margin-top: 8px;
+    }
+
+    .benefits-text {
+        font-weight: 400;
+        /* width: 264px; */
     }
 
     /* =========== OUR TEAM ============*/

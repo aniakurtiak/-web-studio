@@ -347,24 +347,35 @@ body {
     padding-bottom: 96px;
 }
 
+.benefits-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+    margin-bottom: 8px;
+}
+
 .benefits-list {
     display: flex;
     flex-wrap: wrap;
     gap: 72px;
 }
 
-.benefits-title.secondary-title {
+/* .benefits-title.secondary-title {
     text-align: left;
     margin-top: 8px;
     margin-bottom: 8px;
-}
+} */
 
 .bnf-icon-wrap {
     display: none;
 }
 
 .benefits-text {
-    width: 264px;
+    font-weight: 500;
+    /* width: 264px; */
 }
 
 /*! ============ /BENEFITS ============ */
