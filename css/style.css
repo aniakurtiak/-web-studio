@@ -450,9 +450,7 @@ body {
 }
 
 
-
 /* *=============/TEAM======================== */
-
 
 
 /* ?=============FILTER========= */
@@ -557,17 +555,18 @@ body {
 
 /* !=============CUSTOMERS========== */
 .customers {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
 
 .customers-list {
     display: flex;
-    gap: 24px;
+    flex-wrap: wrap;
+    gap: 16px;
 }
 
 .customers-link {
-    width: 168px;
+    width: 190px;
     height: 88px;
     border: 1px solid #8E8F99;
     border-radius: 4px;

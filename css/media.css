@@ -7,7 +7,6 @@
         width: 294px;
     }
 
-
 }
 
 /*! ===== ============ TABLET ====== ============*/
@@ -152,6 +151,23 @@
     .team-item {
         width: calc((100% - 24px) / 2);
     }
+
+    /* ======== CUSTOMERS ========== */
+    .conteiner-custmers-tab {
+        width: 582px;
+    }
+
+    .customers-link {
+        width: 168px;
+    }
+
+    .customers-list {
+        gap: 24px;
+    }
+
+    .customers-item {
+        margin-bottom: 72px;
+    }
 }
 
 
@@ -278,5 +294,11 @@
 
     .team-item {
         width: calc((100% - 72px) / 4);
+    }
+
+    /* !=============CUSTOMERS========== */
+    .customers {
+        padding-top: 120px;
+        padding-bottom: 120px;
     }
 }
