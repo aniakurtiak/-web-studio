@@ -110,6 +110,10 @@ body {
     height: 8px;
 }
 
+.section-title {
+    margin-bottom: 72px;
+}
+
 /* ============ HEADER ============ */
 .top-header {
     padding-top: 24px;
