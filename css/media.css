@@ -256,30 +256,30 @@
         margin-top: 8px;
         margin-bottom: 8px;
     }
-}
 
-/* ==============ABOUT=================== */
+    /* ==============ABOUT=================== */
 
-.about {
-    display: flex;
-    padding-bottom: 120px;
-}
+    .about {
+        display: flex;
+        padding-bottom: 120px;
+    }
 
-.section-title {
-    margin-bottom: 72px;
-}
+    .section-title {
+        margin-bottom: 72px;
+    }
 
-.about-list {
-    display: flex;
-    gap: 24px;
+    .about-list {
+        display: flex;
+        gap: 24px;
 
-}
+    }
 
-/* =========== OUR TEAM ============*/
-.team-list {
-    gap: 24px;
-}
+    /* =========== OUR TEAM ============*/
+    .team-list {
+        gap: 24px;
+    }
 
-.team-item {
-    width: calc((100% - 72px) / 4);
+    .team-item {
+        width: calc((100% - 72px) / 4);
+    }
 }
