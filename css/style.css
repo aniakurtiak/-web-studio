@@ -380,23 +380,9 @@ body {
 
 /*! ============ /BENEFITS ============ */
 
-/* ==============ABOUT=================== */
 .about {
-    padding-bottom: 120px;
+    display: none;
 }
-
-.section-title {
-    margin-bottom: 72px;
-}
-
-.about-list {
-    display: flex;
-    gap: 24px;
-
-}
-
-
-/* ==============/ABOUT=================== */
 
 /* *=============TEAM======================== */
 .team {

@@ -135,6 +135,15 @@
         text-align: left;
     }
 
+    .benefits-list {
+        gap: 24px;
+    }
+
+    .benefits-item {
+        width: 356px;
+        margin-bottom: 72px;
+    }
+
     /* =========== OUR TEAM ============*/
     .team-list {
         gap: 24px;
@@ -223,15 +232,6 @@
         /* width: 264px; */
     }
 
-    /* =========== OUR TEAM ============*/
-    .team-list {
-        gap: 24px;
-    }
-
-    .team-item {
-        width: calc((100% - 72px) / 4);
-    }
-
     .bnf-icon-wrap {
         width: 264px;
         height: 112px;
@@ -256,4 +256,30 @@
         margin-top: 8px;
         margin-bottom: 8px;
     }
+}
+
+/* ==============ABOUT=================== */
+
+.about {
+    display: flex;
+    padding-bottom: 120px;
+}
+
+.section-title {
+    margin-bottom: 72px;
+}
+
+.about-list {
+    display: flex;
+    gap: 24px;
+
+}
+
+/* =========== OUR TEAM ============*/
+.team-list {
+    gap: 24px;
+}
+
+.team-item {
+    width: calc((100% - 72px) / 4);
 }
