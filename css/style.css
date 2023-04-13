@@ -176,12 +176,6 @@ body {
 
 }
 
-/* .mobile-contacts-wrap {
-    position: absolute;
-    bottom: 0;
-} */
-
-
 .mobile-menu.is-hidden {
     opacity: 0;
     visibility: hidden;
@@ -219,7 +213,6 @@ body {
 
 .mobile-contact-phone {
     font-weight: 700;
-    font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -241,9 +234,6 @@ body {
 
 .mobile-soc-list {
     display: flex;
-    /* justify-content: space-between; */
-    gap: 56px;
-    flex-wrap: wrap;
 }
 
 .mobile-soc-item {
