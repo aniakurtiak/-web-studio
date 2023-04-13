@@ -398,10 +398,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 72px;
-}
-
-.team-item {
-    width: 100%;
+    justify-content: center;
 }
 
 .team-text {
@@ -562,6 +559,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
+    justify-content: center;
 }
 
 .customers-link {
