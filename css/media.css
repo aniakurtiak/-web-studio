@@ -188,8 +188,9 @@
         }
 
         .frt-logo {
+            align-items: start;
             margin-left: 108px;
-            margin-bottom: 72px;
+            margin-bottom: 48px;
         }
 
         .footer-form-wrapper {
@@ -198,9 +199,22 @@
             gap: 24px;
         }
 
+        .ftr-soc-media {
+            align-items: start;
+        }
+
+        .footer-form-conteiner {
+            align-items: start;
+            margin-left: 108px;
+        }
+
+        .footer-form {
+            width: 264px;
+
+        }
+
         .footer-form-input {
             width: 264px;
-            margin-left: 108px;
         }
 
         /* ============ MODAL-WINDOW ============= */
@@ -369,12 +383,13 @@
             margin-left: 120px;
         }
 
-        .footer-form-input {
+        .footer-form-conteiner {
             margin-left: 80px;
         }
 
         .footer-form-wrapper {
             flex-wrap: nowrap;
+            align-items: start;
         }
 
         /* ========= MODAL WINDOW ========= */
